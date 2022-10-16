@@ -1,0 +1,15 @@
+.main-team {
+  margin-top: 110px; }
+
+.team-title {
+  font-family: var(--audiwide);
+  font-weight: 400;
+  font-size: 79px;
+  line-height: 111%;
+  text-transform: uppercase;
+  display: flex;
+  color: var(--white); }
+  .team-title span + span {
+    margin-left: 250px; }
+
+/*# sourceMappingURL=team.css.map */

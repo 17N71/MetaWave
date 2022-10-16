@@ -1,0 +1,12 @@
+.main-girl {
+  background-image: url("../images/background-girl.jpg");
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 240px;
+  min-height: 240px;
+  max-height: 240px;
+  margin-top: 120px; }
+
+/*# sourceMappingURL=main-girl.css.map */

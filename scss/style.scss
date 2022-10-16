@@ -1,0 +1,79 @@
+// font-family: 'Audiowide', cursive;
+// font-family: 'DMMono', monospace;
+// font-family: 'Inter',sans-serif;
+@import url("../font/metaico/metaico.css");
+@import url("./font.css");
+@import url("./header.css");
+@import url("./main.css");
+@import url("./record.css");
+@import url("./nft.css");
+@import url("./artist.css");
+@import url("./tab.css");
+@import url("./main-girl.css");
+@import url("./roadmap.css");
+@import url("./logoholder.css");
+@import url("./questions.css");
+@import url("./team.css");
+@import url("./workers.css");
+@import url("./discord.css");
+@import url("./footer.css");
+
+:root {
+  --inter: "Inter", sans-serif;
+  --audiwide: "Audiowide", cursive;
+  --dmmono: "DMMono", monospace;
+  --black: #000000;
+  --white: #ffffff;
+  --grey: #a8a8a8;
+  --darkgrey: #222222;
+  --lime: #8dfd1b;
+  --purple: #42006a;
+  --lightgrey: #c4c4c4;
+}
+*::after,
+*::before,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: var(--black);
+  color: var(--white);
+  padding-right: 0;
+  &.body_lock {
+    overflow: hidden;
+    padding-right: 10px;
+  }
+}
+.title__modify {
+  color: var(--grey);
+}
+@media screen and (max-width: 768px) {
+  [class$="-title"] {
+    text-align: center;
+  }
+}
+::-webkit-scrollbar {
+  background-color: var(--purple);
+  width: 10px;
+}
+::-ms-scrollbar {
+  background-color: var(--purple);
+}
+::-moz-scrollbar {
+  background-color: var(--purple);
+}
+::-o-scrollbar {
+  background-color: var(--purple);
+}
+::-webkit-scrollbar-thumb {
+  background: darken(#8dfd1b, 10%);
+}
+::-ms-scrollbar-thumb {
+  background: darken(#8dfd1b, 10%);
+}

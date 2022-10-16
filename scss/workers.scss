@@ -1,0 +1,80 @@
+.main-workers {
+  margin-top: 122px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0 140px;
+  gap: 100px;
+}
+.workers-item {
+  flex: 0 0 33.333%;
+  display: flex;
+  max-width: 320px;
+  flex-direction: column;
+  align-items: center;
+  gap: 21px;
+}
+.workers-image {
+  img {
+    width: 320px;
+    height: 320px;
+  }
+}
+.workers-name {
+  font-family: var(--dmmono);
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 132%;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--white);
+}
+.workers-profesion {
+  font-family: var(--dmmono);
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 109%;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+  color: var(--lime);
+}
+.workers-soc {
+  display: flex;
+  gap: 12px;
+  a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: var(--black);
+    font-size: 20px;
+    width: 36px;
+    height: 36px;
+    background-color: var(--white);
+    transition: all 0.1s linear 0s;
+    -webkit-transition: all 0.1s linear 0s;
+    -moz-transition: all 0.1s linear 0s;
+    -ms-transition: all 0.1s linear 0s;
+    -o-transition: all 0.1s linear 0s;
+    &:hover {
+      background-color: var(--lime);
+    }
+  }
+}
+.workers-description {
+  text-align: center;
+  font-family: var(--inter);
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 160%;
+  color: var(--white);
+}
+
+@media screen and (max-width: 1215px) {
+  .workers-item {
+    flex: 0 0 50%;
+  }
+}

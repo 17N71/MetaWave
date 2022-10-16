@@ -1,0 +1,52 @@
+@font-face {
+  font-family: "metaico";
+  src: url("./metaico.eot?hytxc8");
+  src: url("./metaico.eot?hytxc8#iefix") format("embedded-opentype"),
+    url("./metaico.ttf?hytxc8") format("truetype"),
+    url("./metaico.woff?hytxc8") format("woff"),
+    url("./metaico.svg?hytxc8#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"],
+[class^="icon-"]::before,
+[class^="icon-"]::after,
+[class*=" icon-"]::before,
+[class*=" icon-"]::after {
+  font-family: "metaico" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-mc:before {
+  content: "\e906";
+}
+.icon-top:before {
+  content: "\e905";
+}
+.icon-yt:before {
+  content: "\e900";
+}
+.icon-tw:before {
+  content: "\e901";
+}
+.icon-tg:before {
+  content: "\e902";
+}
+.icon-li:before {
+  content: "\e903";
+}
+.icon-ds:before {
+  content: "\e904";
+}
