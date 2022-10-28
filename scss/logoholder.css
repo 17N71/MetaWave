@@ -1,7 +1,8 @@
 .main-logoholder {
   display: flex;
   padding: 0 240px 0 40px;
-  flex-direction: column; }
+  flex-direction: column;
+}
 
 .logoholder-title {
   font-family: var(--dmmono);
@@ -12,7 +13,8 @@
   text-transform: uppercase;
   text-align: center;
   margin-bottom: 50px;
-  color: var(--lime); }
+  color: var(--lime);
+}
 
 .logoholder {
   height: 120px;
@@ -20,15 +22,16 @@
   width: 1160px;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center; }
+  background-position: center center;
+}
 
 @media screen and (max-width: 1205px) {
   .logoholder {
     max-width: 100%;
-    width: 100%; }
-
+    width: 100%;
+  }
   .main-logoholder {
     padding: 0;
-    margin: 0 auto; } }
-
-/*# sourceMappingURL=logoholder.css.map */
+    margin: 0 auto;
+  }
+}/*# sourceMappingURL=logoholder.css.map */

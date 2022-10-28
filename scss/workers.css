@@ -5,7 +5,8 @@
   flex-wrap: wrap;
   justify-content: center;
   padding: 0 140px;
-  gap: 100px; }
+  gap: 100px;
+}
 
 .workers-item {
   flex: 0 0 33.333%;
@@ -13,11 +14,13 @@
   max-width: 320px;
   flex-direction: column;
   align-items: center;
-  gap: 21px; }
+  gap: 21px;
+}
 
 .workers-image img {
   width: 320px;
-  height: 320px; }
+  height: 320px;
+}
 
 .workers-name {
   font-family: var(--dmmono);
@@ -26,7 +29,8 @@
   line-height: 132%;
   text-align: center;
   text-transform: uppercase;
-  color: var(--white); }
+  color: var(--white);
+}
 
 .workers-profesion {
   font-family: var(--dmmono);
@@ -36,28 +40,32 @@
   text-align: center;
   letter-spacing: 1px;
   text-transform: uppercase;
-  color: var(--lime); }
+  color: var(--lime);
+}
 
 .workers-soc {
   display: flex;
-  gap: 12px; }
-  .workers-soc a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-    color: var(--black);
-    font-size: 20px;
-    width: 36px;
-    height: 36px;
-    background-color: var(--white);
-    transition: all 0.1s linear 0s;
-    -webkit-transition: all 0.1s linear 0s;
-    -moz-transition: all 0.1s linear 0s;
-    -ms-transition: all 0.1s linear 0s;
-    -o-transition: all 0.1s linear 0s; }
-    .workers-soc a:hover {
-      background-color: var(--lime); }
+  gap: 12px;
+}
+.workers-soc a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: var(--black);
+  font-size: 20px;
+  width: 36px;
+  height: 36px;
+  background-color: var(--white);
+  transition: all 0.1s linear 0s;
+  -webkit-transition: all 0.1s linear 0s;
+  -moz-transition: all 0.1s linear 0s;
+  -ms-transition: all 0.1s linear 0s;
+  -o-transition: all 0.1s linear 0s;
+}
+.workers-soc a:hover {
+  background-color: var(--lime);
+}
 
 .workers-description {
   text-align: center;
@@ -65,10 +73,11 @@
   font-weight: 400;
   font-size: 12px;
   line-height: 160%;
-  color: var(--white); }
+  color: var(--white);
+}
 
 @media screen and (max-width: 1215px) {
   .workers-item {
-    flex: 0 0 50%; } }
-
-/*# sourceMappingURL=workers.css.map */
+    flex: 0 0 50%;
+  }
+}/*# sourceMappingURL=workers.css.map */

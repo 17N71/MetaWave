@@ -1,7 +1,1 @@
-{
-"version": 3,
-"mappings": "AAAQ,gCAAwB",
-"sources": ["main.scss"],
-"names": [],
-"file": "main.css"
-}
+{"version":3,"sources":["main.scss"],"names":[],"mappings":"AAAQ,gCAAA","file":"main.css"}

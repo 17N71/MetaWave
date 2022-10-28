@@ -1,7 +1,1 @@
-{
-"version": 3,
-"mappings": "AAAA,UAAW;EACT,gBAAgB,EAAE,oCAAoC;EACtD,qBAAqB,EAAE,KAAK;EAC5B,mBAAmB,EAAE,aAAa;EAClC,eAAe,EAAE,KAAK;EACtB,iBAAiB,EAAE,SAAS;EAC5B,MAAM,EAAE,KAAK;EACb,UAAU,EAAE,KAAK;EACjB,UAAU,EAAE,KAAK;EACjB,UAAU,EAAE,KAAK",
-"sources": ["main-girl.scss"],
-"names": [],
-"file": "main-girl.css"
-}
+{"version":3,"sources":["main-girl.scss","main-girl.css"],"names":[],"mappings":"AAAA;EACE,sDAAA;EACA,4BAAA;EACA,kCAAA;EACA,sBAAA;EACA,4BAAA;EACA,aAAA;EACA,iBAAA;EACA,iBAAA;EACA,iBAAA;ACCF","file":"main-girl.css"}

@@ -58,6 +58,7 @@
 .modal_container::after {
   width: 100%;
   height: 100%;
+  padding: 0 20px;
   content: "";
   position: fixed;
   top: 0;
@@ -92,9 +93,11 @@
   flex-direction: column;
   justify-content: center;
   gap: 15px;
-
+  width: 100%;
+  max-width: 550px;
   background-color: #8dfd1b;
   backdrop-filter: blur(15px);
+
 
   position: fixed;
   top: 50%;
